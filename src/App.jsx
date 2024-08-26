@@ -34,7 +34,7 @@ import AllOrders from './Components/AllOrders/AllOrders';
 let query = new QueryClient()
 let routing = createBrowserRouter([
     {
-      path: "home",
+      path: "",
       element: <Layout />,
       children: [
         { index: true, element:<ProtectedRoute> <Home /> </ProtectedRoute> },
